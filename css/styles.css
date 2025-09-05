@@ -41,7 +41,7 @@ img {
 /*-------наигация------*/
 
 .header .container {
-  display: flex; }
+  display: flex; align-items: center;}
 
   .main-nav { display: flex;
   font-family: "Roboto", sans-serif;
@@ -67,7 +67,8 @@ align-items: center;}
   color: #2e2f42;
 }
 
-.main-nav .link {padding-top: 24px;
+.main-nav .link {display: block;
+  padding-top: 24px;
 padding-bottom: 24px;
 font-weight: 500;
 line-height: 150%;
@@ -177,8 +178,7 @@ min-width: 169px}
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: #434455;
-      margin-bottom: 8px;}
+        color: #434455;}
 
       /*-------третья секция------*/
     .main-section-team {background-color: #f4f4fd;
@@ -187,7 +187,6 @@ min-width: 169px}
 
       .main-team {font-size: 36px; 
         line-height: 1.11;
-         padding-bottom: 72px;
           margin-bottom: 72px;
           letter-spacing: 0.02em;
           text-align: center;
@@ -195,14 +194,13 @@ min-width: 169px}
           color: #2e2f42;
         }
 
-          .team-card {padding: 32px 0;}
+    .team-card {padding: 32px 0;}
           
 .list {display: flex;
 gap: 24px;}
 
 .main-team-list {background-color: #FFFFFF;
         border-radius: 0 0 4px 4px;
-      padding-bottom: 32px;
         width: calc((100% - 3 * 24px) / 4);}
       
       .main-team-subtitle {font-weight: 500;
@@ -220,14 +218,14 @@ gap: 24px;}
           text-align: center;
           color: #434455;}
 
-        .taste-img { padding-bottom: 32px;}
+        .taste-img {}
       /*-------четвертая секция------*/
 
    .main-portfolio {padding-top: 120px;
         padding-bottom: 120px;}
 
    .main-portfolio-title {font-size: 36px;
-            padding-bottom: 72px;
+      
             line-height: 111%;
             letter-spacing: 0.02em;
             text-align: center;
@@ -241,14 +239,12 @@ gap: 24px;}
       row-gap: 48px;
      }
 
-  .main-portfolio-list { padding-bottom: 32px;
+  .main-portfolio-list {
    width: calc((100% - 48px) / 3);}
 
   .applications {padding: 32px 16px;
      border: 1px solid #e7e9fc;
-  border-top: none;
-   /* margin-bottom: 8px 
-   убрать если не нужно */} 
+  border-top: none;} 
 
   .main-portfolio-subtitle {font-weight: 500;
             font-size: 20px;
@@ -287,7 +283,6 @@ gap: 24px;}
         }
 
     .footer-lead {max-width: 264px;
-      padding-top: 16px;
       font-weight: 400;
       font-size: 16px;
       line-height: 150%;
